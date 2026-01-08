@@ -3,8 +3,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://hannimman.github.io/QuoteMaker/">
-    <meta property="og:image" content="https://hannimman.github.io/QuoteMaker/pikapika.jpg">
+    <meta property="og:url" content="https://kang30984.github.io/test/">
+    <meta property="og:image" content="https://kang30984.github.io/test/images/zanmang.jpg">
     <meta property="og:description" content="피카츄가 들판을 뛰어다닙니다">
     <meta property="og:site_name" content="따옴표 마법사">
     <meta property="og:locale" content="ko_KR">
@@ -418,7 +418,7 @@ value3
 
     var timer = 0; //타이머
     
-    fetch('images/zanmang.jpg')
+    fetch('https://kang30984.github.io/test/images/zanmang.jpg')
     .then(response => response.blob())
     .then(blob => blob.arrayBuffer())
     .then(arrayBuffer => {
@@ -428,7 +428,7 @@ value3
         //console.log(url);
     })
     .catch(error => {
-        img.src = 'images/zanmang.jpg'; 
+        img.src = 'https://kang30984.github.io/test/images/zanmang.jpg'; 
     });
 
     
